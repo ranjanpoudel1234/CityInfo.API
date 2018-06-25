@@ -9,6 +9,7 @@ namespace CityInfo.API.Entities
 {
     public class City
     {
+        // test commit
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
